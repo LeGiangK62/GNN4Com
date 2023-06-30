@@ -337,8 +337,8 @@ cvx_quiet true
     corsses(n,:,:) = cross;
     betas(n,:,:) = BETAAn;
 end
-save('cf_test_6_30.mat','directs','corsses','betas','R_cf_opt_min')
-%save('cf_train_6_30.mat','directs','corsses','betas')
+% save('cf_test_6_30.mat','directs','corsses','betas','R_cf_opt_min')
+save('cf_train_6_30.mat','directs','corsses','betas')
 
 
 
